@@ -6,35 +6,43 @@ modifier le mdp a la premiere connexion sans rebboter avant
 
 ---------------------
 modif mdp 
-passwd user
-passwd ubuntu
+  passwd user
+  passwd ubuntu
 -----------------------
 Bureau a distance
-sudo apt install xrdp
-sudo apt-get install xfce4
-echo xfce4-session >~/.xsession
-sudo /etc/init.d/xrdp restart
+  sudo apt install xrdp
+  sudo apt-get install xfce4
+  echo xfce4-session >~/.xsession
+  sudo /etc/init.d/xrdp restart
 ------------------------
 Mise a jour d'Ubuntu 
-sudo apt-get update && sudo apt-get upgrade -y
+  sudo apt-get update && sudo apt-get upgrade -y
 ------------------------
 Serveur Web Lampy
-sudo apt install apache2 php mysql-server libapache2-mod-php php-mysql
+  sudo apt install apache2 php mysql-server libapache2-mod-php php-mysql
 
 
 ----------------------
 Openvpn
-https://korben.info/installer-openvpn.html
-telecharger https://openvpn.net/index.php/access-server/download-openvpn-as-sw.html
-sudo apt-get install openvpn
-dpkg -i openvpn-as-2.0.11-Ubuntu14.amd_64.deb
-passwd openvpn
-
-
+  https://korben.info/installer-openvpn.html
+  telecharger https://openvpn.net/index.php/access-server/download-openvpn-as-sw.html
+  sudo apt-get install openvpn
+  dpkg -i openvpn-as-2.0.11-Ubuntu14.amd_64.deb
+  passwd openvpn
 +++++++++++++++++++++++++++++++++++++++++++++++
 Access Server Web UIs are available here:
 Admin  UI: https://54.37.11.66:943/admin
 Client UI: https://54.37.11.66:943/
+
 +++++++++++++++++++++++++++++++++++++++++++++++
 
-
+Commande de base gestion de fichier :
+  console su
+  puis mkdir
+  cp copier
+  mv deplacer
+  rm supprimer
+  cd aller a
+  ls se qui as dans le dossier
+  mount monter
+  umount demonter 
