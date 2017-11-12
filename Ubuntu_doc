@@ -46,3 +46,13 @@ Commande de base gestion de fichier :
   ls se qui as dans le dossier
   mount monter
   umount demonter 
+Droits sur dossier
+  se connecter avec root : sudo root
+  creer un dossier : mkdir www
+  modifier le owner : chown user1 www
+  Voir les droits du fichier ls -l
+
+
+
+
+
