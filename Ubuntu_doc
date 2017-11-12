@@ -20,3 +20,12 @@ sudo apt-get update && sudo apt-get upgrade -y
 ------------------------
 Serveur Web Lampy
 sudo apt install apache2 php mysql-server libapache2-mod-php php-mysql
+
+
+----------------------
+Openvpn
+https://korben.info/installer-openvpn.html
+
+sudo apt-get install openvpn
+dpkg -i openvpn-as-2.0.11-Ubuntu14.amd_64.deb
+passwd openvpn
