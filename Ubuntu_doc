@@ -1,1 +1,22 @@
 
+----------------------
+apt-get update
+apt-get ubuntu-desktop
+modifier le mdp a la premiere connexion sans rebboter avant
+
+---------------------
+modif mdp 
+passwd user
+passwd ubuntu
+-----------------------
+Bureau a distance
+sudo apt install xrdp
+sudo apt-get install xfce4
+echo xfce4-session >~/.xsession
+sudo /etc/init.d/xrdp restart
+------------------------
+Mise a jour d'Ubuntu 
+sudo apt-get update && sudo apt-get upgrade -y
+------------------------
+Serveur Web Lampy
+sudo apt install apache2 php mysql-server libapache2-mod-php php-mysql
