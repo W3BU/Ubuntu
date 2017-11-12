@@ -29,3 +29,12 @@ telecharger https://openvpn.net/index.php/access-server/download-openvpn-as-sw.h
 sudo apt-get install openvpn
 dpkg -i openvpn-as-2.0.11-Ubuntu14.amd_64.deb
 passwd openvpn
+
+
++++++++++++++++++++++++++++++++++++++++++++++++
+Access Server Web UIs are available here:
+Admin  UI: https://54.37.11.66:943/admin
+Client UI: https://54.37.11.66:943/
++++++++++++++++++++++++++++++++++++++++++++++++
+
+
