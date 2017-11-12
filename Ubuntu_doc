@@ -25,7 +25,7 @@ sudo apt install apache2 php mysql-server libapache2-mod-php php-mysql
 ----------------------
 Openvpn
 https://korben.info/installer-openvpn.html
-
+telecharger https://openvpn.net/index.php/access-server/download-openvpn-as-sw.html
 sudo apt-get install openvpn
 dpkg -i openvpn-as-2.0.11-Ubuntu14.amd_64.deb
 passwd openvpn
